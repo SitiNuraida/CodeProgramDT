@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+     margin: 0;  /*:Garis tepi paling luar */
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
@@ -99,34 +99,5 @@ header {
 }
 
 /* CSS Section 2 */
-body {
-    background-color: black;
-}
 
-.desc {
-    color: white;
-    text-align: center;
-    padding-top: 50px;
-}
-
-.section2 {
-    width: 100%;
-    height: 70vh;
-    display: flex;
-    align-items: center;
-}
-
-.section2 .tagline {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    row-gap: 20px;
-    column-gap: 20px;
-}
-
-.section2 .tagline .box-tagline {
-    width: 300px;
-    text-align: left;
-    color: white;
-}
 /* end CSS section 2 */
